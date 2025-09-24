@@ -18,7 +18,7 @@ The dataset used is the [Skin Lesions Classification Dataset](https://www.kaggle
 ## Training
 
 Run all cells in the notebook.
-Saves best model (`skin_lesion_model.pth`) based on validation accuracy. More details on the model can be found on [Hugging Face](https://huggingface.co/suhaila-mohammed/skin-lesion-image-classifier).
+Saves best model (`skin_lesion_resnet18.pth`) based on validation accuracy. More details on the model can be found on [Hugging Face](https://huggingface.co/suhaila-mohammed/skin-lesion-image-classifier).
 
 ## Results
 The model was trained for **5 epochs**, with the **best model achieved at the last epoch**.  
