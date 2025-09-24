@@ -47,8 +47,9 @@ Both training and validation losses decrease over epochs and remain relatively c
 
 
 ## Future Work  
-1. **Bounding Box Lesion Localization** – Extend the model to detect and localize lesions within images, not just classify them.
-2. Test improvement on the accuracy using more epochs (stronger GPU required) and also using more augmentation techniques.
-3. **Multimodal Learning (Image + Text)** – Incorporate clinical metadata or textual notes alongside image features for improved diagnostic performance.  
+- **Bounding Box Lesion Localization** – Extend the model to detect and localize lesions within images, not just classify them.
+- Test improvement on the accuracy using more epochs (stronger GPU required) and also using more augmentation techniques.
+- **GUI for Single Image Classification** – Build a simple interface allowing users to upload one image and get a classification result directly.
+- **Multimodal Learning (Image + Text)** – Incorporate clinical metadata or textual notes alongside image features for improved diagnostic performance.  
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1-PtTMX8M3eF5wi0SSNwtZulHuAAKyH2g?usp=sharing)
