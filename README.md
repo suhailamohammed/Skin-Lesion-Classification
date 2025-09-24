@@ -4,7 +4,6 @@ This project implements a skin lesion image classifier using a pretrained ResNet
 ## Project Structure
 ```
 skin-lesion-classification/
-├── skin_lesion_resnet18.pth
 ├── skin_lesion_classification.ipynb
 └── README.md
 ```
@@ -19,7 +18,7 @@ The dataset used is the [Skin Lesions Classification Dataset](https://www.kaggle
 ## Training
 
 Run all cells in the notebook.
-Saves best model (`skin_lesion_model.pth`) based on validation accuracy
+Saves best model (`skin_lesion_model.pth`) based on validation accuracy. More details on the model can be found on [Hugging Face](https://huggingface.co/suhaila-mohammed/skin-lesion-image-classifier).
 
 ## Results
 The model was trained for **5 epochs**, with the **best model achieved at the last epoch**.  
@@ -45,6 +44,7 @@ The model shows poor performance on certain classes such as **Vascular lesions**
 Both training and validation losses decrease over epochs and remain relatively close together, demonstrating that the model is improving its performance on both seen and unseen data.
 
 <img width="691" height="470" alt="Loss Curves" src="https://github.com/user-attachments/assets/897dd5d0-d336-44ea-8f82-6f072be4e316" />
+
 
 ## Future Work  
 1. **Bounding Box Lesion Localization** – Extend the model to detect and localize lesions within images, not just classify them.
