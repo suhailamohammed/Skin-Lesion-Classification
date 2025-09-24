@@ -9,7 +9,7 @@ skin-lesion-classification/
 ```
 
 ## Dataset  
-The dataset used is the [Skin Lesions Classification Dataset](https://www.kaggle.com/datasets/ahmedxc4/skin-ds), which contains dermoscopic images organized into **15 different classes**.  
+The dataset used is the [Skin Lesions Classification Dataset](https://www.kaggle.com/datasets/ahmedxc4/skin-ds), which contains dermoscopic images organized into **14 different classes**.  
 
 - **Structure:** The data is split into three folders — `train`, `val`, and `test` — each containing images for all 14 classes.  
 - **Preprocessing:** Standard transformations (resize, converted to tensor, normalization) were applied to improve generalization.  
